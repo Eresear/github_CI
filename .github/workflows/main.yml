@@ -27,7 +27,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           docker pull registry.k8s.io/build-image/kube-cross:v1.24.0-go1.19.8-bullseye.0
-          docker tage registry.k8s.io/build-image/kube-cross:v1.24.0-go1.19.8-bullseye.0 oneslide/registry.k8s.io/kube-cross:v1.24.0-go1.19.8-bullseye.0
+          docker tag registry.k8s.io/build-image/kube-cross:v1.24.0-go1.19.8-bullseye.0 oneslide/registry.k8s.io/kube-cross:v1.24.0-go1.19.8-bullseye.0
       
       - name: Log in to Docker Hub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
