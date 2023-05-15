@@ -38,4 +38,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Push to Docker Registry
         run: |
-          docker push yangyang3293/registry.k8s.io/kube-cross:v1.24.0-go1.19.8-bullseye.0
+          docker push yangyang3293/registry.k8s.io:kube-cross_v1.24.0-go1.19.8-bullseye.0
